@@ -1,5 +1,3 @@
-# Happy-Pythpn
-A new project files to learning python(❤ ω ❤)
 ## ⚡ 第一节课
 
 > **时间：** `2020-01-04，晚上 20:00`；**地点** `川师成龙第一实验楼 西 407`
@@ -158,9 +156,9 @@ A new project files to learning python(❤ ω ❤)
 
 1. 我是1
 
-1. 我是2
+1. 我不是1了哟
 
-1. 我是3
+1. 你觉得我是几
 
 
 超链接
@@ -175,7 +173,28 @@ A new project files to learning python(❤ ω ❤)
 
 ~~***我是周沛然***~~
 
+<img src="timg.jpg" width="100">
+
+表格
+
+|1|2|3|4|
+|:-|:-:|:-:|-:|
+|我是最帅的|我是最帅的|我是最帅的|重要的事情说三遍|
+|居左|居中|居中*2|居右|
+
 + **扩展：** markdown 语言与 HTML 语言互通之处
+
+```python
+
+#递归实现进制转换
+
+def Y(n, s = ''):
+           if n == 0:
+                      return s
+           else:
+                      return Y(n//R, str(n%R) + s)
+R=int(input(""))
+print(Y(int(input("")), ''))
 
 <br><br><br>
 
